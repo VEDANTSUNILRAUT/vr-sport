@@ -1,0 +1,55 @@
+/* src/styles/global.css */
+
+:root {
+  --primary-color: #8a2be2; /* Violet */
+  --secondary-color: #00a9e0; /* Sky Blue */
+  --background-color: #000000; /* Black */
+  --text-color: #f0f0f0; /* Off-White */
+  --accent-color: #39ff14; /* Electric Green */
+  --highlight-color: #d32f2f; /* Crimson Red */
+  --support-color: #2f2f2f; /* Dark Slate Gray */
+}
+
+body {
+  font-family: "Poppins";
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: var(--secondary-color);
+}
+
+button:active {
+  background-color: var(--highlight-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 20px;
+  text-align: center;
+}
+
+.error-message {
+  color: var(--highlight-color);
+  font-weight: bold;
+}
+
+.container {
+  background-color: var(--support-color);
+  padding: 20px;
+  border-radius: 8px;
+}

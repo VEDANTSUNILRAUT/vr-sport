@@ -1,0 +1,44 @@
+/* src/components/Dashboard.css */
+.dashboard {
+  padding: 20px;
+  background-color: #1e1e1e; /* Dark background */
+  color: #ffffff; /* Light text color */
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-header h1 {
+  font-size: 2rem;
+}
+
+.upcoming-events ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.upcoming-events li {
+  background-color: #333;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.quick-actions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.action-button {
+  padding: 10px 20px;
+  background-color: #8a2be2;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.action-button:hover {
+  background-color: #7a1da1;
+}
